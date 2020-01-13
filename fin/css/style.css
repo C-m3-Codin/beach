@@ -1,0 +1,227 @@
+.parallax {
+    /* The image used */
+    background-image: url('../media/bg2.jpeg');
+  
+    /* Full height */
+    min-height: 1200px;
+  
+    /* Create the parallax scrolling effect */
+    position:relative;
+    /* opacity:0.6; */
+    background-position:center;
+    
+    background-size:cover;
+    background-repeat:no-repeat;
+  }
+
+  .parallax_2 ,.theme_1 {
+    /* The image used */
+    background-image: url('../media/bg2.jpeg');
+  
+    /* Full height */
+    min-height: 900px;
+  
+    /* Create the parallax scrolling effect */
+    position:relative;
+    /* opacity:0.6; */
+    background-position:center;
+    
+    background-size:cover;
+    background-repeat:no-repeat;
+  }
+
+  .ptext{
+    position:absolute;
+    top:10%;
+    width:100%;
+    /* text-align:center; */
+    color:#000;
+    /* font-size:27px; */
+    /* letter-spacing:8px; */
+    /* text-transform:uppercase; */
+  }
+
+  #titleHolder
+{
+    padding:0;
+    position: absolute;
+    bottom: 30vh;
+    left: 5vw;
+
+    text-align: center;
+}
+
+
+
+
+#titleHolder h1
+{
+    margin: 0;
+
+    color:rgba(255,255,255,1);
+    font-family:font1;
+    font-size: 5vw;
+}
+#titleHolder h6
+{
+    margin: 0;
+
+    color: #5aedff;
+    font-family: font1;
+    font-size: 1.5vw;
+}
+#regIcon
+{
+    margin: 5px 10px 5px 10px;
+    padding: 5px 10px 5px 10px;
+
+    background-color: #5aecff00;
+    
+    color:white;
+    font-family: font1;
+    font-size: 1.5vw;
+    text-decoration: none;
+    text-align: center;
+
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    outline-style:none;
+}
+
+#regIcon:hover
+{
+    /*color:#da0b0b;*/
+    background-color: #5aedff;
+    border-color:#5aedff;   
+    cursor: pointer; 
+}
+
+.asd {
+    /* The image used */
+    background-image: url('../media/bg1.jpeg');
+  
+    /* Full height */
+    height: 100%;
+    /* opacity: .6; */
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    
+  }
+
+
+  .about_1,.overview_1,.rules_1,.schedule_1,.register_1
+  {
+    
+    
+
+      font-family: font1;
+      font-size: 30px;
+      color:rgb(241, 234, 234);
+      text-align: justify;
+
+
+
+      background-image: url("../media/bg2.jpeg");
+  
+    /* Full height */
+    min-height: 1200px;
+  
+    /* Create the parallax scrolling effect */
+    position:relative;
+    /* opacity:0.6;
+     */
+    background-position:center;
+    
+    background-size:cover;
+    background-repeat:no-repeat;
+      
+  }
+  /* .rules_1,.schedule_1
+  {
+    font-family: font1;
+    font-size: 30px;
+    background-image: linear-gradient(to bottom, rgb(182, 239, 241),rgb(200,239,241));
+    background-size:cover;
+    background-repeat:repeat-y;
+ } */
+
+ @media only screen and (max-width: 600px) {
+    .rules_1,.about_1,.schedule_1 {
+      font-size:10px;
+    }
+  }
+
+
+  
+  .about_1 h1,.rules_1 h1,.theme_1 h1,.overview_1 h1,.schedule_1 h1,.register_1 h1
+  {
+      color:#5aedff;
+      text-decoration:underline;
+      margin-left: 25px; border:1px;
+    margin-top: 0px; 
+    margin-bottom: 0px;
+      
+  }
+
+  .about_1 p,.rules_1 p,.theme_1 p,.overview_1 p,.schedule_1 p,.register_1 p
+  {
+    margin: 15px; border:1px;
+    margin-top: 0px; 
+    margin-bottom: 0px;
+  }
+
+
+  /*NAVBAR*/
+.navbar
+{
+    position: fixed;
+    top: 0px;
+    width: 100%;
+}
+
+.navItem /*navbar tabs*/
+{
+    float:left;
+    padding: 5px;
+    margin: 6px;
+    margin-left: 15px;
+
+    outline-style:none;/*if not used the selection box around the div may not disappear*/
+
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0);
+    border-width: 1px;
+    border-radius: 5px;
+
+    background-image: url('../media/images/bg.jpeg');
+
+    color:white;
+    font-family: font1;
+    font-size: 15px;
+    font-weight: bolder;
+    text-align: center;
+    
+    
+}
+.navItem.active
+{
+    color:#5aedff;
+    border-color: #5aedff;
+}
+.navItem:hover
+{
+    color:white;
+    border-color:white;
+    cursor:pointer;
+}
+
+
+
+
+  
